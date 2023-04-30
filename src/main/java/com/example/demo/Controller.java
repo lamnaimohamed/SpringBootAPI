@@ -69,7 +69,7 @@ public class Controller {
 
     @GetMapping(value = "/helloword")
     public String hellow(){
-        return " bonjour ";
+        return " bonjour tous le monde ";
     }
 
 }

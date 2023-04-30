@@ -39,6 +39,10 @@ public class Service {
     public List<Niveau> getNiveau(){
         return this.niveauRepo.findAll();
     }
+    public List<Projet> getAllProjet(){
+        return this.projetRepository.findAll();
+    }
+
 
 
     public Projet saveProjet(Projet projet){

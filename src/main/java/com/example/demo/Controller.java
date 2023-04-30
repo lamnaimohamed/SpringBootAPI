@@ -63,5 +63,13 @@ public class Controller {
     }
 
 
+    @GetMapping(value = "/getAllProjet")
+    public ResponseEntity<?> getAllProjet(){ return new ResponseEntity<>(this.service.getAllProjet(), HttpStatus.OK);
+    }
+
+    @GetMapping(value = "/helloword")
+    public String hellow(){
+        return " bonjour ";
+    }
 
 }

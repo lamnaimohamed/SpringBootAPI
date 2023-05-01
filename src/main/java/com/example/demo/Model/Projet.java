@@ -25,7 +25,7 @@ public class Projet {
     private String observation;
     private Integer anneeProjet;
 
-    private Integer yeadrp;
+     
 
 
     @JsonIgnoreProperties({"projets"})
